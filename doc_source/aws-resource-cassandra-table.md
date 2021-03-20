@@ -194,10 +194,6 @@ The following example creates a table with specific read and write capacity\.
             "ColumnType":"TEXT"
           },
           {
-            "ColumnName":"division",
-            "ColumnType":"TEXT"
-          },
-          {
             "ColumnName":"project",
             "ColumnType":"TEXT"
           },
@@ -253,8 +249,6 @@ Resources:
       - ColumnName: name
         ColumnType: TEXT
       - ColumnName: region
-        ColumnType: TEXT
-      - ColumnName: division
         ColumnType: TEXT
       - ColumnName: project
         ColumnType: TEXT
